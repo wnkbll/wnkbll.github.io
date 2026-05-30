@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<section class="bg-white px-4 py-20">
+<section class="bg-[#fdfbf7] px-4 py-20">
   <div class="mx-auto max-w-6xl">
     <div class="mb-16 text-center">
       <h2 class="relative inline-block text-3xl font-bold text-[#1a252f] md:text-4xl">
@@ -69,7 +69,7 @@
   </div>
 </section>
 
-<section class="border-t border-slate-100 bg-slate-50 px-4 py-20">
+<section class="bg-[#fdfbf7] px-4 py-20">
   <div class="mx-auto max-w-6xl">
     <div class="mb-16 text-center">
       <h2 class="relative inline-block text-3xl font-bold text-[#1a252f] md:text-4xl">
