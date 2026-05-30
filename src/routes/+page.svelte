@@ -35,29 +35,9 @@
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       {#each TRIGGERS as trigger}
         <div
-          class="group rounded-xl border border-slate-100 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#a33835]/30 hover:shadow-xl"
+          class="relative overflow-hidden rounded-xl border-t-4 border-transparent bg-white p-8 shadow-sm transition-all duration-300 hover:border-[#a33835] hover:shadow-lg"
         >
-          <div
-            class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-[#fdfbf7] text-[#a33835]"
-          >
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M13 10V3L4 14h7v7l9-11h-7z"
-              ></path>
-            </svg>
-          </div>
-          <h3
-            class="mb-4 text-xl font-bold text-slate-800 transition-colors group-hover:text-[#a33835]"
-          >
+          <h3 class="mb-4 text-xl font-bold text-slate-800">
             {trigger.title}
           </h3>
           <p class="font-serif text-base leading-relaxed text-slate-600">
